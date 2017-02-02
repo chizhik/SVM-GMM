@@ -12,6 +12,7 @@ My implementation of SVM and GMM using python and numpy
 **Kernel Trick**. Using the same 5 training validation pairs in #1, I train my SVM with the Gaussian kernel. Then I find the best performing hyper-parameters (C and σ) for the Gaussian kernel, plot averaged prediction error on training/validation sets vs. hyper parameters (in plots you can vary only one hyper parameter at a time fixing the other), and report the test error, as before.
 
 ## Problem 3
+**Gaussian Mixture Models**.
 
 1. I first build a function to generate i.i.d samples of Gaussian mixture models.
 2. Then I implement the EM algorithm for Gaussian mixture models.
